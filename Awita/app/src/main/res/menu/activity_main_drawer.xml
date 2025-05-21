@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_inicio" android:title="Inicio / Registro Diario" android:icon="@drawable/ic_home" />
+        <item android:id="@+id/nav_historial" android:title="Historial de Consumo" android:icon="@drawable/ic_history" />
+        <item android:id="@+id/nav_metas" android:title="Metas" android:icon="@drawable/ic_goal" />
+        <item android:id="@+id/nav_recordatorios" android:title="Recordatorios" android:icon="@drawable/ic_notifications" />
+        <item android:id="@+id/nav_estadisticas" android:title="Estadísticas" android:icon="@drawable/ic_bar_chart" />
+        <item android:id="@+id/nav_configuracion" android:title="Configuración" android:icon="@drawable/ic_settings" />
+        <item android:id="@+id/nav_acerca_de" android:title="Acerca de" android:icon="@drawable/ic_info" />
+    </group>
+</menu>
+
+
+
+
