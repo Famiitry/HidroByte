@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.example.awita.InicioFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_historial"
+        android:name="com.example.awita.HistorialFragment"
+        android:label="Historial de Consumo"
+        tools:layout="@layout/fragment_historial" />
+
+    <fragment
+        android:id="@+id/nav_metas"
+        android:name="com.example.awita.MetasFragment"
+        android:label="Metas"
+        tools:layout="@layout/fragment_metas" />
+
+    <fragment
+        android:id="@+id/nav_recordatorios"
+        android:name="com.example.awita.RecordatoriosFragment"
+        android:label="Recordatorios"
+        tools:layout="@layout/fragment_recordatorios" />
+
+    <fragment
+        android:id="@+id/nav_estadisticas"
+        android:name="com.example.awita.EstadisticasFragment"
+        android:label="Estadísticas"
+        tools:layout="@layout/fragment_estadisticas" />
+
+    <fragment
+        android:id="@+id/nav_configuracion"
+        android:name="com.example.awita.ConfiguracionFragment"
+        android:label="Configuración"
+        tools:layout="@layout/fragment_configuracion" />
+
+    <fragment
+        android:id="@+id/nav_acerca_de"
+        android:name="com.example.awita.AcercaDeFragment"
+        android:label="Acerca de"
+        tools:layout="@layout/fragment_acerca_de" />
+</navigation>
