@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start">
+
+        <!-- Cambiar Unidades -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unidades"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radio_unidades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rb_ml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ml" />
+            <RadioButton
+                android:id="@+id/rb_oz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="oz" />
+        </RadioGroup>
+
+        <!-- Sonido -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sonido"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <Switch
+            android:id="@+id/switch_sonido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activar sonidos" />
+
+        <!-- Vibración -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibración"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <Switch
+            android:id="@+id/switch_vibracion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Activar vibración" />
+
+        <!-- Modo Oscuro -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tema"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp" />
+
+        <Switch
+            android:id="@+id/switch_tema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modo Oscuro 🌙" />
+
+    </LinearLayout>
+</ScrollView>
